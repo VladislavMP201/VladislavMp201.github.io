@@ -19,7 +19,7 @@ func main() {
   fmt.Print("Введите c: ")
     fmt.Fscan(os.Stdin, &c)
     if a == 0 && b == 0 && c != 0 {
-      fmt.Println("цыфкрка не равнв 0")
+      fmt.Println("Число не равно 0")
       }
     if a == 0 && b != 0 && c == 0 {
       fmt.Println("x = 0")
